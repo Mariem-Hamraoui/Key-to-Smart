@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+        </script>
+
+    <title> Start Key'to </title>
+
+
+
+</head>
+
+<body>
+    <div class="header">
+        <h1> Welcome to Key'to Start!   </h1>
+        <a href="https://www.w3schools.com"> This is a link   </a>
+
+        <p> We’re excited to design a menu that fits your lifestyle and preferences!</p>
+            <p>   When you’re finished taking the quiz below,</p>
+                <p>we’ll show you some amazing dishes that we think you'll love creating </p>
+
+        <br>
+
+    </div>
+    <div class=" quiz"  >
+        <Q id="1"> Tell us about yourself </Q>
+        <br>
+        <input type="text" placeholder=" Name .. " id="Others">
+        <br>
+        <input type="text" placeholder=" Age " id="Others">
+        <br>
+        <input type="text" placeholder=" Weight " id="Others">
+        <br>
+        <input type="text" placeholder=" Goal weight " id="Others">
+
+        <label class="container"> Low Activity level
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container"> Moderate Activity level
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container"> High Activity level
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <div>
+            <br>
+
+            <label for="start"> Start Key'to </label>
+            <input id='calendar ' type="date" id="start" name="trip-start" value="2021-06-28" min="2019-01-01"
+                max="2022-12-31">
+
+            <br>
+
+
+            <br>
+
+            <Q id="2">   Key'to-Friendly Foods that you prefer to avoid  ? </Q>
+
+            <br>
+
+            <label class="container"> Poultry
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container"> Meat
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container"> Fatty fish
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container"> Healthy fats
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> Full- fat cheese
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> Full-fat dairy
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+
+            <input type="text" placeholder="  Others Foods .. " id="Others">
+
+            <br>
+
+            <br>
+
+            <Q id="3"> What statement best decribes your  ? </Q>
+
+            <label class="container"> Want variety, even if it costs a bit more
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container"> Less variety is fine if it saves money
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+
+            <br>
+
+            <Q id="3"> How much time do you have for breakfast  ? </Q>
+            <label class="container"> Less than 15 minutes
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> Less than 45 minutes
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> Okay for make-ahead Items
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+
+            <br>
+            <Q id="4"> How do you feel about smoothies for snack ? </Q>
+            <br>
+
+            <label class="container"> I like them occasioannlly
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+                <br>
+
+            </label>
+            <label class="container"> I never want smoothies
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+
+
+
+            <br>
+
+            <input type="button" onclick="myFunction()" value="See my Key'to receips">
+
+        </div>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>

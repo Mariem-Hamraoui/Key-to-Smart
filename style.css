@@ -1,0 +1,68 @@
+ 
+
+
+ h1 {
+    
+    color: rgb(207, 92, 15);
+    margin-left: 40px;  
+    font-family: "Sofia";
+    font-size: 30px;
+      text-shadow: 3px 3px 3px #ababab;
+  }
+
+
+  body {
+    background-color: rgb(245, 227, 233);
+    text-justify:auto;
+    margin-bottom: 25px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsGvsK3Au60Jv9mK5d-QkR9Py3Oxj_KS7t4p5QzntSnvLCr0sLlD5JBMcSISBZzjf56Ng&usqp=CAU");
+    background-color: #fffdfd;
+    background-size: cover;
+    background-position: center;
+    
+  } 
+
+  q {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Georgia;
+    margin: 20px;
+    text-justify:auto;
+    
+    font-size: 25px;
+    line-height: 50px;
+}
+
+label {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Georgia;
+    margin: 30px;
+    text-justify:auto;
+}
+
+.container { 
+    text-align: center;
+    display: list-item;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-justify:auto;
+    }
+
+div {
+    text-align: center;
+    height: 100%;
+    width : 100%; 
+      }
+
+    #Others {
+        width: 30%;
+        padding: 8px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
