@@ -38,7 +38,7 @@ label {
     font-size: 1rem;
     font-family: Georgia;
     margin: 30px;
-    text-justify:auto;
+    
 }
 
 .container { 
@@ -57,7 +57,7 @@ div {
     width : 100%; 
       }
 
-    #Others {
+  .c1 {
         width: 30%;
         padding: 8px 20px;
         margin: 8px 0;
@@ -66,3 +66,42 @@ div {
         border-radius: 4px;
         box-sizing: border-box;
       }
+
+    #weight {
+        width: 30%;
+        padding: 8px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      #b {
+        width: 10%;
+        padding: 8px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+  .btn {
+    width: 20%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  p2{ 
+    
+    font-size: 1rem;
+    margin: 20px;
+    text-align:justify;
+    font-size: 20px;
+    line-height: 50px;
+  }
