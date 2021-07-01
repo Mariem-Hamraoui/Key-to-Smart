@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="ketomeal.css">
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
@@ -16,30 +18,42 @@
 
 
 <body>
+    <div id="mySidenav" class="sidenav">
+
+        <a href="../home/home.html" id="about"> Home </a>
+         <a href="../bmicalculator/BMIcalculator.html" id="blog"> BMI calculator </a> 
+        <a href="../contact/contact.html" id="contact"> Contact </a>
+
+        
+    </div>
+    <br>
+
     <div class="header">
-        <h1> Review Key'to Meals  </h1>
+        <h1> Review Key2Smart Meals </h1>
         <a href="https://www.w3schools.com"> This is a link </a>
 
         <p> We’re excited to design a menu that fits your lifestyle and preferences!</p>
         <p> When you’re finished taking the quiz below,</p>
         <p>we’ll show you some amazing dishes that we think you'll love creating </p>
-         
+
+
+        
 
         <br>
         <div class="form2">
             <form name="form2" method="post" id="form2">
 
                 <fieldset>
-
+                    <legend> “When there is no struggle, there is no strength.” — Oprah </legend>
                     <br>
-
                     <p>
-                        <Q id="3"> What statement best decribes your ? </Q>
+                        <Q id="3"> <strong> What statement best decribes your ? </strong> </Q>
 
                         <label class="container"> Want variety, even if it costs a bit more
                             <input type="radio" checked="checked" name="radio">
                             <span class="checkmark"></span>
                         </label>
+                    
 
                         <label class="container"> Less variety is fine if it saves money
                             <input type="radio" name="radio">
@@ -51,69 +65,48 @@
                     </p>
 
                     <p>
-                        <Q id="3"> How much time you have for preparing your meal ? </Q>
+                        <Q id="3"> <strong> How much time you have for preparing your meal ? </strong> </Q>
 
 
                         <label class="container" value="45"> Less than 45 minutes
-                            <input type="radio" name="radio">
+                            <input type="radio" name="radio2">
                             <span class="checkmark"></span>
                         </label>
 
                         <label class="container" value="60"> Okay for make-ahead Items
-                            <input type="radio" name="radio">
+                            <input type="radio" name="radio2">
                             <span class="checkmark"></span>
                         </label>
                     </p>
-
                     <br>
-
-
                 </fieldset>
             </form>
             <br>
-
-
             <p>
 
-                <br>
-
-                <input class =" btn" id="bmi" type="button" value=" BMI calculator "> 
-
-                <br>
-
-                <input class =" btn" type="button" id="submit" value="See Key'to receips">
+                <label for="file"> Downloading progress: </label>
+                  <progress id="file" value="99" max="100"> 99% </progress> 
 
                 <br>
+
+                <input class=" btn" type="button" id="submit" value="See Key'to receips">
+ 
+
+                <br>
+
+                
 
             </p>
-
+          
 
         </div>
-
-    
-<h2> Key'toSmart Newsletter</h2>
-
-<form action="/action_page.php">
-  <div class="container">
-    <h2>Subscribe to our Newsletter</h2>
-    <p>Lorem ipsum text about why you should subscribe to our newsletter blabla. Lorem ipsum text about why you should subscribe to our newsletter blabla.</p>
-  </div>
-
-  <div class="container" style="background-color:white">
-    <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="mail" required>
-    <label>
-      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-    </label>
-  </div>
-
-  <div class="container">
-    <input type="submit" value="Subscribe">
-  </div>
-</form>
+        <footer>
+                  <p>© 2021 key2Smart </p>
+        </footer>
 
 
-    <script src="ketomeals.js"></script> 
+
+        <script src="ketomeals.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,10 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 
+html { 
+  text-align: center;
+}
+
+
 form {
   border: 3px solid #f1f1f1;
   font-family: Arial;
@@ -7,7 +12,7 @@ form {
 
 .container {
   padding: 20px;
-  background-color: #f1f1f1;
+  
 }
 
 input[type=text], input[type=submit] {
@@ -32,3 +37,87 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.8;
 }
+
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -30px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  
+  #about {
+    top: 20px;
+    background-color: #20B2AA;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: rgb(240, 128, 128) /* Blue */
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #C9C0BB; /* Red */
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: rgb(9, 231, 39) /* Light Black */
+  }
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  body {
+    background-color: rgb(245, 227, 233);
+    text-justify:auto;
+    margin-bottom: 25px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsGvsK3Au60Jv9mK5d-QkR9Py3Oxj_KS7t4p5QzntSnvLCr0sLlD5JBMcSISBZzjf56Ng&usqp=CAU");
+    background-color: #fffdfd;
+    background-size: cover;
+    background-position: center;
+    
+  } 
+
+
+
+  .btn {
+    width: 20%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+  h1 {
+    color: #b52540;
+    margin-left: 40px;  
+    font-family: "Sofia";
+    font-size: 50px;
+      text-shadow: 3px 3px 3px #ababab;
+  }
