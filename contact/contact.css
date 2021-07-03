@@ -4,7 +4,7 @@ h1 {
   margin-left: 40px;  
   font-family: "Sofia";
   font-size: 50px;
-    text-shadow: 3px 3px 3px #ababab;
+  text-shadow: 3px 3px 3px #ababab;
 }
 
 h2 {
@@ -12,19 +12,24 @@ h2 {
 }
 
 
-
-
 article {
-    min-height: 50%;
+    min-height: 70%;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    margin-left: 200px;
 }
 
 footer {
     display: flex;
     justify-content: center;
      color: #74250e;
+     margin-left: 200px;
+     text-align: center;
+      
+     padding: 20px;
+     text-align: center;
    
+     margin-top: 20px;
 
 }
 
@@ -60,13 +65,12 @@ body {
 
 img{ 
   border-radius: 8px;
+  width: 20%;
+  height: 30%;
 }
 
 
-.container{ 
-  float: left ;
-  box-sizing: border-box;
-} 
+
 
 .container { 
   max-width: 500px;
@@ -75,10 +79,12 @@ img{
 }
 
 
+
+
   /* Style the links inside the sidenav */
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
-    left: -30px; /* Position them outside of the screen */
+    left: -10px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 10px; /* 15px padding */
     width: 100px; /* Set a specific width */
@@ -110,7 +116,7 @@ img{
   
   #contact {
     top: 200px;
-    background-color: rgb(9, 231, 39) /* Light Black */
+    background-color: #ffa94c /* Light Black */
   }
   
 

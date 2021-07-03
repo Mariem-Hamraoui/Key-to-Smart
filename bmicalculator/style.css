@@ -1,9 +1,10 @@
  
-
+* {
+  box-sizing: border-box;
+}
 
  h1 {
-    
-    color: #b52540;
+     color: #b52540;
     margin-left: 40px;  
     font-family: "Sofia";
     font-size: 50px;
@@ -12,7 +13,7 @@
 
 
   q {
-    color : #018abd;
+    color : #33b0dd;
   } 
 
   body {
@@ -71,9 +72,10 @@ div {
         box-sizing: border-box;
       }
 
+
     #weight {
         width: 30%;
-        padding: 8px 20px;
+        padding: 10px 20px;
         margin: 8px 0;
         display: inline-block;
         border: 1px solid #ccc;
@@ -107,7 +109,7 @@ div {
   /* Style the links inside the sidenav */
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
-  left: -30px; /* Position them outside of the screen */
+  left: -10px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
   width: 100px; /* Set a specific width */
@@ -139,5 +141,51 @@ div {
 
 #contact {
   top: 200px;
-  background-color: rgb(9, 231, 39) /* Light Black */
+  background-color: #ffa94c /* Light Black */
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #f7e8e3;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #d7ad9d;
+  color: white;
+  font-size: 17px;
+  
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button.clear {
+  clear: both;
+}
+
+form.example button:hover {
+  background: #9579d1 ;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+  
+  padding: 20px;
+  margin-top: 20px;
+} 

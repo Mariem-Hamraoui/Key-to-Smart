@@ -28,10 +28,10 @@ $("#bmi").click(function () {
   BMI = Math.trunc((weight / (height * height) ) * 100) ; 
   
   if( 18.5 < BMI &&  BMI < 25)
-  alert("  Your Body Mass Index is  " + BMI + "  kg/m2  is Normal  .. Good!! ") ;
+  alert("  Your Body Mass Index is  " + BMI + "  kg/m2  is Normal  .. \n keep it up! ") ;
    
   else ( BMI < 18.25 &&  25 < BMI ) 
-  alert (" Your Body Mass Index is  " + BMI + "  kg/m2   .. take heed! " );
+  alert (" Your Body Mass Index is  " + BMI + "  kg/m2   .. \n Take heed! " );
   $('#height').empty();
   $('#Weight').empty();
 })

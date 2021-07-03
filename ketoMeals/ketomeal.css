@@ -1,4 +1,4 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, serif;}
 
 html { 
   text-align: center;
@@ -6,13 +6,11 @@ html {
 
 
 form {
-  border: 3px solid #f1f1f1;
   font-family: Arial;
 }
 
 .container {
-  padding: 20px;
-  
+  padding: 30px; 
 }
 
 input[type=text], input[type=submit] {
@@ -36,6 +34,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
 
 
@@ -43,7 +42,7 @@ input[type=submit]:hover {
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
-    left: -30px; /* Position them outside of the screen */
+    left: -10px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
     width: 100px; /* Set a specific width */
@@ -76,7 +75,7 @@ input[type=submit]:hover {
   
   #contact {
     top: 200px;
-    background-color: rgb(9, 231, 39) /* Light Black */
+    background-color: #ffa94c /* Light Black */
   }
 
 
@@ -96,28 +95,96 @@ input[type=submit]:hover {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsGvsK3Au60Jv9mK5d-QkR9Py3Oxj_KS7t4p5QzntSnvLCr0sLlD5JBMcSISBZzjf56Ng&usqp=CAU");
     background-color: #fffdfd;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;   
   } 
-
-
 
   .btn {
     width: 20%;
     padding: 8px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #e04386;
+    border-radius: 8px;
     box-sizing: border-box;
   }
-
-
+  .btn:hover {
+    background-color: #e04386;
+    color: white;
+  }
 
   h1 {
     color: #b52540;
     margin-left: 40px;  
     font-family: "Sofia";
     font-size: 50px;
-      text-shadow: 3px 3px 3px #ababab;
+    text-shadow: 3px 3px 3px #ababab;
   }
+ 
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color:#c33124;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 15px;
+  background-color:#ffeefc;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #ffeefc;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ffeefc;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #b33572;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color:#0d878d;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1.5;
+}

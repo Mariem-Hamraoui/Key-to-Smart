@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
@@ -19,87 +20,98 @@
 
 <body>
     <div id="mySidenav" class="sidenav">
-        
-        <a href="../home/home.html" id="about"> Home  </a>
-          
-        <a href="../ketoMeals/ketomeals.html" id="projects"> Key2Meals </a>
-         
+
+        <a href="../home/home.html" id="about"> Home </a>
+
+        <a href="../ketoMeals/ketomeals.html" id="projects"> Review </a>
+
         <a href="../contact/contact.html" id="contact"> Contact </a>
+
+
+    </div>
+
+    <div> 
         
-    </div> 
+<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+    </div>
     <br>
 
     <div class="header">
-        <h1> Welcome to Key2Smart ! </h1>
-      
-        <p> Use this calculator to check your body mass index (BMI) and find out if you're a healthy weight </p>
+        <h1> Welcome to Key2Smart ! </h1> 
+
+
+        <p> Use this calculator to check your body mass index (BMI) </p>
         <p> Or you can use it to check your child's BMI </p>
-        <p>  Let's check your BMI Healthy weight calculator </p>
+        <p> Let's check your BMI Healthy weight calculator </p>
 
         <br>
         <div class=" quiz">
             <form name="form" method="post" id="form">
+                <p>
+                    <Q> <strong> Tell us about yourself </strong> </Q>
+                    <br>
+                    <input class="c1" type="text" placeholder=" username .. " id="Others">
+                    <br>
+                    <input class="c1" type="number" placeholder=" Age " id="Others">
+                    <br>
+                    <input class="c1" type="number" placeholder=" Weight " id="weight">
+                    <br>
+                    <input class="c1" type="number" placeholder=" Height " id="height">
+                    <br>
 
-                <fieldset>
+                    <input class=" btn" id="button1" type="button" value="Click Me!">
 
-                    <p>
-                        <Q> <strong>  Tell us about yourself </strong>  </Q>
-                        <br>
-                        <input class="c1" type="text" placeholder=" username .. " id="Others">
-                        <br>
-                        <input class="c1" type="number" placeholder=" Age " id="Others">
-                        <br>
-                        <input class="c1" type="number" placeholder=" Weight " id="weight">
-                        <br>
-                        <input class="c1" type="number" placeholder=" Height " id="height">
-                        <br>
-
-                        <input class=" btn" id="button1" type="button" value="Click Me!">
-
-                    </p>
-
-                 
-
-
-                </fieldset>
+                </p>
             </form>
             <br>
-
             <p>
-
-              <br>
-
+                <br>
                 <input class=" btn" id="bmi" type="button" value=" BMI calculator ">
                 <br>
-                <input class="btn" id='reset' type=reset value= Restart> 
-                <br> 
-                
-               
-                <a href="../ketoMeals/ketomeals.html"  class=" btn" id="submit"> <strong>Discover Key'to receips</strong> </a>
- 
-               
-               
+                <input class="btn" id='reset' type=reset value=Restart>
+                <br>
+                <a href="../ketoMeals/ketomeals.html" class=" btn" id="submit"> <strong> Discover Key2 Receips </strong>
+                </a>
                 <br>
 
-
-               
-
             </p>
-
+         
 
         </div>
+        <form action="/action_page.php">
+            
+            <div class="card">
 
-        <div> 
- 
+                <h3> Subscribe to our Newsletter </h3>
 
-        <br>
-        <footer>
-           
-            <p>© 2021 Key2Smart </p>
+                <div class="container">
+                    <input type="text" placeholder="Name" name="name" required>
+                    
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <br>
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                    </label>
+                </div>
+                <br>
+                <div class="container" id ='Go'>
+                    <input type="submit" value="Go!" >
+                </div>
+        </form>
 
-        </footer>
+    </div> 
+        <div>
+            <br>
+            
+            <footer>
+                <p>© 2021 Key2Smart </p>
+            </footer>
 
-        <script src="script.js"></script>
+            <script src="script.js"></script>
 
 </body>
 

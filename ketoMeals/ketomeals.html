@@ -21,15 +21,15 @@
     <div id="mySidenav" class="sidenav">
 
         <a href="../home/home.html" id="about"> Home </a>
-         <a href="../bmicalculator/BMIcalculator.html" id="blog"> BMI calculator </a> 
+        <a href="../bmicalculator/BMIcalculator.html" id="blog"> BMI  </a>
         <a href="../contact/contact.html" id="contact"> Contact </a>
 
-        
+
     </div>
     <br>
 
     <div class="header">
-        <h1> Review Key2Smart Meals </h1>
+        <h1> Review Key2Smart </h1>
         <a href="https://www.w3schools.com"> This is a link </a>
 
         <p> We’re excited to design a menu that fits your lifestyle and preferences!</p>
@@ -37,25 +37,25 @@
         <p>we’ll show you some amazing dishes that we think you'll love creating </p>
 
 
-        
+
 
         <br>
-        <div class="form2">
+        <div class="form2" id="quiz">
             <form name="form2" method="post" id="form2">
 
                 <fieldset>
-                    <legend> “When there is no struggle, there is no strength.” — Oprah </legend>
+                    <legend> “When there is no struggle, there is no strength!” — Oprah </legend>
                     <br>
                     <p>
                         <Q id="3"> <strong> What statement best decribes your ? </strong> </Q>
 
-                        <label class="container"> Want variety, even if it costs a bit more
+                        <label class="container" id="radio2"> Want variety, even if it costs a bit more
                             <input type="radio" checked="checked" name="radio">
                             <span class="checkmark"></span>
                         </label>
-                    
 
-                        <label class="container"> Less variety is fine if it saves money
+
+                        <label class="container" id="radio"> Less variety is fine if it saves money
                             <input type="radio" name="radio">
                             <span class="checkmark"></span>
                         </label>
@@ -68,12 +68,12 @@
                         <Q id="3"> <strong> How much time you have for preparing your meal ? </strong> </Q>
 
 
-                        <label class="container" value="45"> Less than 45 minutes
+                        <label class="container" value="45" id="radio2"> Less than 45 minutes
                             <input type="radio" name="radio2">
                             <span class="checkmark"></span>
                         </label>
 
-                        <label class="container" value="60"> Okay for make-ahead Items
+                        <label class="container" value="60" id="radio2"> Okay for make-ahead Items
                             <input type="radio" name="radio2">
                             <span class="checkmark"></span>
                         </label>
@@ -84,27 +84,41 @@
             <br>
             <p>
 
-                <label for="file"> Downloading progress: </label>
-                  <progress id="file" value="99" max="100"> 99% </progress> 
+                <label for="file"> Little by little becomes a lot </label>
+                <progress id="file" value="99" max="100"> 99% </progress>
 
                 <br>
 
-                <input class=" btn" type="button" id="submit" value="See Key'to receips">
- 
+               
+                <a class=" btn" id="submit" onclick="newDoc()"> 
+                    <strong> Your Adventure awaits  </strong> </a>
 
                 <br>
 
-                
+
 
             </p>
-          
+
+            <button class="open-button" onclick="openForm()"> Chat</button>
+
+            <div class="chat-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  
+
+                    <label for="msg"><b> We'll be happy to answer!  </b></label>
+                    <textarea placeholder=" type here please .. " name="msg" required></textarea>
+
+                    <button type="submit" class="btn"> Send </button>
+                    <button type="button" class="btn cancel" onclick="closeForm()"> Close </button>
+                </form>
+            </div>
+
 
         </div>
-        <footer>
-                  <p>© 2021 key2Smart </p>
-        </footer>
-
-
+        
+        <div class="footer">
+            <p> © 2021 key2Smart  </p>
+          </div>
 
         <script src="ketomeals.js"></script>
 </body>

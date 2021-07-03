@@ -3,31 +3,10 @@ p {
     margin: 50px;
   }
 
-body {
-    background-color: rgb(245, 227, 233);
-    text-justify:auto;
-    margin-bottom: 25px;
-    background-image: url("https://thumbs.dreamstime.com/z/european-breakfast-eggs-salmon-avocado-tray-coffee-orange-juice-girl-european-breakfast-eggs-salmon-180026835.jpg");
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-   
-    
-  } 
-
-  html { 
-    text-align: center;
-  }
-
- 
-  
-
   /* Style the links inside the sidenav */
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
-  left: -30px; /* Position them outside of the screen */
+  left: -10px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
   width: 100px; /* Set a specific width */
@@ -59,25 +38,22 @@ body {
 
 #contact {
   top: 200px;
-  background-color: rgb(9, 231, 39) /* Light Black */
+  background-color: #ffa94c /* Light Black */
 }
 
 h2 {
-  color : #018abd;
+  color : #e55c01;
 }
 
 
-h1 {
-    
-  color: #b52540;
-  margin-left: 40px;  
+h1 {   
+  color: #ee82c1 ;
+  margin-left: 100px;  
   font-family: "Sofia";
-  font-size: 50px;
-    text-shadow: 3px 3px 3px #ababab;
+  font-size: 80px;
+    text-shadow: 3px 3px 3px #ffdcdc;
+    padding: 30px;
 }
-
-
-
 
 .container { 
   max-width: 250px;
@@ -85,3 +61,17 @@ h1 {
   float: right;
 }
 
+
+body {
+    background-color: rgb(245, 227, 233);
+    text-justify:auto;
+    margin-bottom: 25px;
+    background-image: url("https://images3.alphacoders.com/970/970431.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    
+  } 
